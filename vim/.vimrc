@@ -6,6 +6,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 call plug#end()
 
+"brackets
+set showmatch
+set matchtime=7
+
 "indent
 set autoindent
 filetype plugin indent on
