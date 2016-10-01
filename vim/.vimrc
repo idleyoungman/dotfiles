@@ -10,6 +10,11 @@ call plug#end()
 set autoindent
 filetype plugin indent on
 
+"search
+set hlsearch
+set ignorecase
+set smartcase
+
 "solarized
 set background=dark
 colorscheme solarized
