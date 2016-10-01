@@ -24,3 +24,11 @@ set smartcase
 set background=dark
 colorscheme solarized
 
+" syntastic opts
+let g:syntastic_go_checkers=['go', 'gofmt', 'golint', 'govet']
+let g:syntastic_python_checkers=['pylint']
+let g:syntastic_perl_checkers=['perlcritic']
+let g:syntastic_puppet_puppet_exe = 'LC_ALL=' . $LC_ALL . ' puppet'
+let g:syntastic_puppet_puppetlint_exe='LC_ALL=' . $LC_ALL . ' puppet-lint'
+let g:syntastic_ruby_checkers=['mri', 'ruby-lint', 'rubocop']
+
