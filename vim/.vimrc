@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'altercation/vim-colors-solarized'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-fugitive'
