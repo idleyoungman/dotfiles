@@ -1,6 +1,9 @@
 call plug#begin()
 Plug 'altercation/vim-colors-solarized'
+Plug 'Matt-Deacalion/vim-systemd-syntax'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'pearofducks/ansible-vim'
+Plug 'rodjek/vim-puppet'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-fugitive'
