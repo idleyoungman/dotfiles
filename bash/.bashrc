@@ -26,12 +26,12 @@ export GREP_COLOR='1;31'
 export CLICOLOR=1
 
 if [[ "$OSTYPE" =~ darwin ]]; then
-    if `type source-highlight>/dev/null 2>&1` ; then
+    if $(type source-highlight>/dev/null 2>&1) ; then
         export LESS="-RX"
         export LESSOPEN="| /opt/local/bin/src-hilite-lesspipe.sh %s"
     fi
 elif [[ "$OSTYPE" =~ linux ]]; then
-    if `type source-highlight>/dev/null 2>&1` ; then
+    if $(type source-highlight>/dev/null 2>&1) ; then
         export LESS="-RX"
         export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
     fi
