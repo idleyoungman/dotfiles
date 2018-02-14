@@ -66,3 +66,5 @@ eval "$(rbenv init -)"
 
 # https://github.com/github/hub
 eval "$(hub alias -s)"
+
+complete -C /usr/local/bin/vault vault
