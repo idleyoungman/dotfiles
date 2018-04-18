@@ -68,3 +68,6 @@ eval "$(rbenv init -)"
 eval "$(hub alias -s)"
 
 complete -C /usr/local/bin/vault vault
+
+# :thisisfine:
+alias ansible-playbook='OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES ansible-playbook'
