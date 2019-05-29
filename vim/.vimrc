@@ -24,9 +24,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
-"solarized
-set background=dark
-colorscheme solarized
+"toothpaste theme
+colorscheme toothpaste
 
 " syntastic opts
 let g:syntastic_go_checkers=['go', 'gofmt', 'golint', 'govet']
