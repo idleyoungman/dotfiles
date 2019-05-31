@@ -1,6 +1,7 @@
 call plug#begin()
 Plug 'altercation/vim-colors-solarized'
 Plug 'hashivim/vim-terraform'
+Plug 'lotabout/skim'
 Plug 'Matt-Deacalion/vim-systemd-syntax'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'pearofducks/ansible-vim'
