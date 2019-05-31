@@ -1,7 +1,6 @@
 call plug#begin()
 Plug 'altercation/vim-colors-solarized'
 Plug 'hashivim/vim-terraform'
-Plug 'lotabout/skim'
 Plug 'Matt-Deacalion/vim-systemd-syntax'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'pearofducks/ansible-vim'
@@ -10,6 +9,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
+Plug '/usr/local/opt/fzf'
 call plug#end()
 
 "brackets
