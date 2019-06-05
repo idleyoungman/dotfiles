@@ -1,3 +1,4 @@
+#!/bin/bash
 # Default editor
 export EDITOR=/usr/bin/vim
 
@@ -55,11 +56,6 @@ complete -C aws_completer aws
 # Set GOPATH
 export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin
-
-# Set up virtualenvwrapper
-export WORKON_HOME=~/.virtualenvwrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-. /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
