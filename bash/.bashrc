@@ -69,3 +69,5 @@ complete -C /usr/local/bin/vault vault
 alias ansible-playbook='OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES ansible-playbook'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# Remap CTRL-T back to transpose-chars
+bind '"\C-t": transpose-chars'
