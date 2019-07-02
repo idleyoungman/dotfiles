@@ -26,17 +26,7 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
 export CLICOLOR=1
 
-if [[ "$OSTYPE" =~ darwin ]]; then
-    if $(type source-highlight>/dev/null 2>&1) ; then
-        export LESS="-RX"
-        export LESSOPEN="| /opt/local/bin/src-hilite-lesspipe.sh %s"
-    fi
-elif [[ "$OSTYPE" =~ linux ]]; then
-    if $(type source-highlight>/dev/null 2>&1) ; then
-        export LESS="-RX"
-        export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
-    fi
-fi
+alias less='vim -u /usr/local/Cellar/vim/*/share/vim/vim*/macros/less.vim'
 
 export PATH=~/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/go/libexec/bin:$PATH
 export LANG="en_US.UTF-8"
