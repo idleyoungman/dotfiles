@@ -1,6 +1,6 @@
 #!/bin/bash
 # Default editor
-export EDITOR=/usr/bin/vim
+export EDITOR='/usr/local/bin/code -w'
 
 # Save each command to .bash_history immediately, rather than at end of each session
 # This works around the "last bash session clobbers any previous history" behavior.
@@ -26,7 +26,7 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
 export CLICOLOR=1
 
-alias less='vim -u /usr/local/Cellar/vim/*/share/vim/vim*/macros/less.vim'
+alias less='/usr/local/Cellar/vim/*/share/vim/vim*/macros/less.sh'
 
 export PATH=~/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/go/libexec/bin:$PATH
 export LANG="en_US.UTF-8"
